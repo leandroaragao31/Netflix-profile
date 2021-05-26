@@ -1,0 +1,105 @@
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    @import url(//db.onlinewebfonts.com/c/ab83b275830b2d585ea027c47e3b237a?family=GraphiqueW01-Regular);
+    @font-face {font-family: "GraphiqueW01-Regular"; src: url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.eot"); src: url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.woff") format("woff"), url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.svg#GraphiqueW01-Regular") format("svg"); }
+    @import url(//db.onlinewebfonts.com/c/95cecf452d3208890088a5b4c19c7ecf?family=Helvetica+Neue+ME);
+    @font-face {font-family: "Helvetica Neue ME"; src: url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.eot"); src: url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.woff") format("woff"), url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.svg#Helvetica Neue ME") format("svg"); }
+
+    body{
+        background-color: black;
+    }
+
+    .logo-netflix{
+        height: 20vh;
+        font-size:1.8vw;
+        padding-top: 2vh;
+        padding-left:3vw;
+        font-weight: 400;
+        font-family: "GraphiqueW01-Regular", sans-serif;
+    }
+
+    h2{
+        font-size: 2.5vw;
+        text-align: center;
+        letter-spacing: 0.3vw;
+        padding-bottom:4vh ;
+        color: white;
+        font-family: "Helvetica Neue ME";
+    }
+
+    .logo{
+        color: red;
+        vertical-align: middle;
+
+    }
+
+    .animate__animated.animate__backInDown{
+        --animate-duration: 1s;
+    }
+
+
+    .main-perfil-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70vw;   
+        margin-left: 15vw;     
+    }
+
+    img{
+        display: flex;
+        align-items: center;
+        height: 20vh;
+        cursor:pointer;
+
+    
+    }
+
+    img:hover{
+        border:solid;
+        color: white;
+    }
+
+    p{
+        text-align: center;
+        font-size: 1.8vw;
+        font-family: "Helvetica Neue ME";
+    }
+
+    .button-perfil{
+        height: 20vh;
+    }
+
+    a{
+        color:white;
+    }
+
+    .box-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        
+    }
+
+    button{
+        width:  20vw;
+        height: 8vh;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        text-align: center;
+        border:solid;
+        color:white;
+        background-color: transparent;
+        cursor:pointer;
+        opacity: 0.5;
+    }
+
+    button:hover{
+        
+        color: white;
+        opacity: 2;
+    }

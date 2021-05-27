@@ -3,8 +3,6 @@
         padding:0;
         box-sizing: border-box;
     }
-    @import url(//db.onlinewebfonts.com/c/ab83b275830b2d585ea027c47e3b237a?family=GraphiqueW01-Regular);
-    @font-face {font-family: "GraphiqueW01-Regular"; src: url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.eot"); src: url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.woff") format("woff"), url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ab83b275830b2d585ea027c47e3b237a.svg#GraphiqueW01-Regular") format("svg"); }
     @import url(//db.onlinewebfonts.com/c/95cecf452d3208890088a5b4c19c7ecf?family=Helvetica+Neue+ME);
     @font-face {font-family: "Helvetica Neue ME"; src: url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.eot"); src: url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.woff") format("woff"), url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/95cecf452d3208890088a5b4c19c7ecf.svg#Helvetica Neue ME") format("svg"); }
 
@@ -14,11 +12,14 @@
 
     .logo-netflix{
         height: 20vh;
-        font-size:1.8vw;
         padding-top: 2vh;
         padding-left:3vw;
-        font-weight: 400;
-        font-family: "GraphiqueW01-Regular", sans-serif;
+    }
+
+    img{
+        display: flex;
+        align-items: center;
+        height: 20vh;
     }
 
     h2{
@@ -49,7 +50,7 @@
         margin-left: 15vw;     
     }
 
-    img{
+    .box-img{
         display: flex;
         align-items: center;
         height: 20vh;
@@ -58,7 +59,7 @@
     
     }
 
-    img:hover{
+    .box-img:hover{
         border:solid;
         color: white;
     }
